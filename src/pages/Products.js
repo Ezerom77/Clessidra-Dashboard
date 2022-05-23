@@ -29,7 +29,7 @@ class Products extends Component {
     return (
       <div>
         <h1>Tenemos {this.state.products} productos</h1>
-        <h1>El último usuario registrado es: {this.state.lastProduct.nombre} </h1>
+        <h1>El último producto registrado es: {this.state.lastProduct.nombre} </h1>
         <h1>Precio: {this.state.lastProduct.precio}</h1> 
         <h1>Descripción: {this.state.lastProduct.descripcion}</h1> 
       </div>
