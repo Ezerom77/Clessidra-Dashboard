@@ -5,6 +5,8 @@ import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Users from "./pages/Users";
+import ProdXCat from "./pages/ProdXCat";
+import ProductList from "./pages/ProductList";
 
 import "./App.scss";
 
@@ -19,6 +21,8 @@ function App() {
             <Route exact path="/" element={<Home/>} />
             <Route path="/products" element={<Products/>} />
             <Route path="/users" element={<Users/>} />
+            <Route path="/ProdXCat" element={<ProdXCat/>} />
+            <Route path="/productList" element={<ProductList/>} />
           </Routes>
         </div>
       </div>

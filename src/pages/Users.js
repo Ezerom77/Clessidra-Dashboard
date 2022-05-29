@@ -28,9 +28,9 @@ class Users extends Component {
     console.log(this.state.lastUser);
     return (
       <div>
-        <h1>Tenemos {this.state.users} Usuarios</h1>
-        <h1>El último usuario registrado es: {this.state.lastUser.nombre} {this.state.lastUser.apellido}</h1>
-        <h1>Su correo electronico es: {this.state.lastUser.email}</h1>
+        <p>Tenemos {this.state.users} Usuarios</p>
+        <p>El último usuario registrado es: {this.state.lastUser.nombre} {this.state.lastUser.apellido}</p>
+        <p>Su correo electronico es: {this.state.lastUser.email}</p>
       </div>
     );
   }

@@ -28,10 +28,10 @@ class Products extends Component {
     console.log(this.state.lastProduct);
     return (
       <div>
-        <h1>Tenemos {this.state.products} productos</h1>
-        <h1>El último producto registrado es: {this.state.lastProduct.nombre} </h1>
-        <h1>Precio: {this.state.lastProduct.precio}</h1> 
-        <h1>Descripción: {this.state.lastProduct.descripcion}</h1> 
+        <p>Tenemos {this.state.products} productos</p>
+        <p>El último producto registrado es: {this.state.lastProduct.nombre} </p>
+        <p>Precio: {this.state.lastProduct.precio}</p> 
+        <p>Descripción: {this.state.lastProduct.descripcion}</p> 
       </div>
     );
   }
